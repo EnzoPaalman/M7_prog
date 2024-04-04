@@ -17,6 +17,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->boolean('active')->default(false);
             $table->text('intro');
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

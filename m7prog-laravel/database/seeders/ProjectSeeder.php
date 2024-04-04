@@ -20,7 +20,8 @@ class ProjectSeeder extends Seeder
         'title'       => $faker->colorName(),
         'intro'       => $faker->text(50),
         'description' => $faker->text(),
-        'active'        => true,
+        'active'      => true,
+        'image'       => $faker->string('image')->nullable()
         ]);
     }
 }
