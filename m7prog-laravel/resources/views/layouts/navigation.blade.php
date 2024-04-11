@@ -18,6 +18,9 @@
                     <x-nav-link :href="route('about')">
                         {{ __('About') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('project.index')">
+                        {{ __('Projects') }}
+                    </x-nav-link>
                 </div>
 
                 

@@ -17,4 +17,15 @@ class ProjectController extends Controller
         $model->image = 'image url';
         $model->save();
     }
+
+    public function index() {
+        $projects = Project::all();   
+        
+        return view(
+            'projects.index',
+            [
+                'projects' => $projects,
+            ]
+        );
+    }
 }
