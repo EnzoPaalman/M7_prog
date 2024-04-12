@@ -22,8 +22,6 @@
                         {{ __('Projects') }}
                     </x-nav-link>
                 </div>
-
-                
             </div>
 
             <!-- Settings Dropdown -->
